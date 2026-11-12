@@ -1,8 +1,6 @@
 #include <Arduino.h>
 #include <time.h>
 
-
-
 #define MAX_ELAPSED_TIME (1000) //ms
 unsigned long last_check;
 unsigned long StartTime;
@@ -14,15 +12,7 @@ Serial.begin(9600);
 unsigned long StartTime = millis();
 Serial.println("Starttime: %ul\nprogram has format: <data>: at <elapsed time>");
 Serial.println(StartTime);
-
-
-
-
-
 }
-
-
-
 
 
 void loop() {
