@@ -4,7 +4,7 @@
 #define MAX_ELAPSED_TIME (1000) //ms
 unsigned long last_check;
 unsigned long StartTime;
-//socket 
+
 void setup() {
 
 
